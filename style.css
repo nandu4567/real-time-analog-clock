@@ -1,0 +1,47 @@
+#clockContainer {
+  width: 40vw;
+  height: 40vw;
+  background: url("./images/kisspng-clock-face-digital-clock-clip-art-free-clock-vector-5aaaba0618c8c4.4632878815211381821015.jpg")
+    no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 25px;
+  position: relative;
+}
+
+#hour,
+#minute,
+#seconds {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 2%;
+  height: 23%;
+  top: 28%;
+  left: 49.01%;
+  /* display: none; */
+}
+
+#minute {
+    width: 1.2%;
+    height: 29%;
+    top: 21%;
+    left: 49.4%;
+    /* display: none; */
+}
+
+#seconds {
+    width: 1%;
+    height: 33%;
+    top: 18%;
+    left: 49.461%;
+    /* display: none; */
+}
